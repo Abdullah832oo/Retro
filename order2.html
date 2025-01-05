@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Order Confirmation - Clothing Brand</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+    
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+        }
+    
+        header h1 {
+            margin: 0;
+        }
+    
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+    
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+    
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+    
+        .container {
+            padding: 20px;
+        }
+    
+        .order-summary {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+    
+        .order-summary h2 {
+            margin-top: 0;
+        }
+    
+        .order-summary p {
+            margin: 10px 0;
+        }
+    
+        .input-section {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    
+        .input-section input, .input-section textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    
+        .confirm-button {
+            background: #333;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+            font-size: 18px;
+        }
+    
+        .confirm-button:hover {
+            background: #555;
+        }
+    
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>RETRO</h1>
+        <nav>
+            <ul>
+                <li><a href="Aict Project.html">Home</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Order Confirmation</h2>
+
+        <div class="order-summary">
+            <h3>Your Product:</h3>
+            <p id="product-name">Mens Premium Jacket</p>
+        </div>
+
+        <div class="input-section">
+            <h3>Your Details</h3>
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" required>
+            
+            <label for="address">Address</label>
+            <textarea id="address" required></textarea>
+            
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" required>
+        </div>
+
+        
+        <a href="confirm.html"><button class="confirm-button">Confirm Order</button></a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Clothing Brand. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
